@@ -1,0 +1,51 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: arial,helvetica;
+  color: #161616;
+  background-color: #ffffff; overflow: hidden; }
+
+header { background-color: #dc1826; padding: 13px 0 17px; overflow: hidden; width: 100%; }
+header > img { width: 85px; margin: 0 auto; display: block; }
+
+.soal-awal-wrapper { width: 100%; height: 100%; display: table; margin:-45px 0 0; border-bottom:85px solid #dc1826; }
+.soal-awal-container { padding:0 20%; display: table-cell; vertical-align: middle; }
+.soal-awal-container > img { width: 35%; float: left; }
+.soal-awal-container .wrapper { width: 65%; overflow: hidden; padding: 0 0 0 5%; }
+.soal-awal-container .wrapper h3 { color: #646464; font-size: 2em; text-align: left; font-weight: bold; margin:0 0 20px; }
+.soal-awal-container .wrapper > table { margin: 30px 0 0; font-size: 1.2em; }
+.soal-awal-container .wrapper > table tr { border:1px solid #e5e5e5; border-width:1px 0 0; }
+.soal-awal-container .wrapper > table tr:first-child { border-width:0; }
+.soal-awal-container .wrapper > table tr td { padding:8px 0; }
+.soal-awal-container .wrapper > table tr td:nth-child(1) { font-weight: bold; width: 35%; }
+.soal-awal-container .wrapper > table tr td:nth-child(2) { width: 5%; }
+.soal-awal-container .wrapper > table tr td:nth-child(3) { width: 60%; }
+.soal-awal-container .wrapper .btn-soal { background-color: #f9ac28; border-radius:14px; font-size:1.2rem; color: #ffffff; margin:25px 0; padding: 5px 20px; }
+.soal-awal-container .wrapper .btn-soal:hover { background-color: #fba40f; }
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th { border:none; }
+
+
+.soal-akhir-wrapper { width: 100%; height: 100%; display: table; margin:-45px 0 0; border-bottom:85px solid #dc1826; }
+ul.list { padding: 0; list-style: none; display: inline-block; margin: 0 auto; font-size: 2em; margin:35px auto; }
+ul.list .glyphicon-ok-circle { color: #00ba11; }
+ul.list .glyphicon-remove-circle { color: #dc1826; }
+ul.list li { padding: 0 5px; float: left; }
+.soal-akhir-container { padding:0 20%; display: table-cell; vertical-align: middle; }
+.soal-akhir-container > img { width: 35%; float: left; }
+.soal-akhir-container .wrapper { width: 65%; overflow: hidden; padding: 0 0 0 5%; }
+.soal-akhir-container .wrapper h3 { color: #ffffff; font-size:1.6em; text-align: center; font-weight: bold; margin:0 0 20px; background-color: #00ba11; padding: 13px 0; border-radius: 4px; }
+.soal-akhir-container .wrapper > table { margin: 15px 0 0; font-size: 1.8em; }
+.soal-akhir-container .wrapper > table tr { border:1px solid #e5e5e5; border-width:1px 0 0; }
+.soal-akhir-container .wrapper > table tr:first-child { border-width:0; }
+.soal-akhir-container .wrapper > table tr td { padding:8px 0; }
+.soal-akhir-container .wrapper > table tr td:nth-child(1) { width: 70%; color: #9f9f9f; }
+.soal-akhir-container .wrapper > table tr td:nth-child(2) { width: 5%; }
+.soal-akhir-container .wrapper > table tr td:nth-child(3) { width: 25%; text-align: right; }
+.soal-akhir-container .wrapper .tombol { width: 100%; overflow: hidden; }
+.soal-akhir-container .wrapper .tombol .btn-home { width: 49%; background-color: #f9ac28; border-radius:4px; font-size:1.6em; color: #ffffff; margin:25px 0; padding: 5px 20px; }
+.soal-akhir-container .wrapper .tombol .btn-ulang { width: 49%; margin:25px 0 25px 2%; background-color: #f9ac28; border-radius:4px; font-size:1.6em; color: #ffffff; padding: 5px 20px; }
+.soal-akhir-container .wrapper .tombol .btn:hover { background-color: #fba40f; }

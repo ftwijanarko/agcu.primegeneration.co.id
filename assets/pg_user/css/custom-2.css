@@ -1,0 +1,632 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 128%;
+}
+h4{
+  font-size: 15px;
+  font-weight: 600;
+}
+p{
+  color: #959595;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+div.header, div.footer{
+  display: block;
+}
+/* Same height columns styles */
+@media(min-width: 768px){
+  .equal-row{
+    display: table;
+    width: 100%;
+  }
+  .equal-col{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+/*FOOTER*/
+div.footer{
+  background-color: #26292b ;
+  bottom: 0;
+  color: #cacaca;
+  padding-bottom : 60px;
+  padding-top : 60px;
+  width: 100%;
+}
+div.footer .container h4{
+  color : inherit;
+  font-size: 14px;
+  font-weight : bold;
+  margin-bottom : 33px;
+}
+ div.footer .container a {
+  color : inherit;
+  font-size: 14px;
+  font-weight : 500;
+  margin-bottom : 13px;
+}
+div.footer .container ul, div.footer .container li {
+  list-style: none;
+  margin: 0;
+  margin-bottom : 13px;
+  padding: 0;
+}
+div.footer p, div.footer .container p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+div.footer img{
+  vertical-align : bottom;
+}
+.footer-links {
+  padding-left : 0px;
+  margin : 0px;
+}
+/*FOOTER END*/
+
+/*NAVBAR*/
+div.header .navbar-default{
+  border-radius: 0;
+  margin-bottom: 0;
+}
+div.header .navbar-default .navbar-brand{
+/*  left: auto;*/
+/*  margin-left: 0px !important; */
+    /*Countering custom.css navbar-brand important*/
+/*  width: 100%;*/
+}
+div.header .navbar-default ul>li{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*
+div.header .navbar-default ul>li a:hover,
+div.header .navbar-default ul>li a:focus,
+div.header .navbar-default ul>li a:active{
+  color: #fff;
+  background-color: #fd7789;
+}
+*/
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: transparent;
+}
+/*NAVBAR END*/
+
+/*PAGE-BODY*/
+div.page-body{
+  margin: auto;
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+div.page-body h2{
+  color: #767676;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+div.page-body input.form-custom{
+  border: 1px solid #999;
+  font-size: 14px;
+  height: 40px;
+  /*PROBLEM IN FIREFOX IF PADDING IS USED*/
+  /*padding-bottom: 19px;*/
+  /*padding-top: 19px;*/
+}
+div.page-body input.form-custom::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+div.page-body input.form-custom:-ms-input-placeholder {
+  color: #999;
+}
+div.page-body input.form-custom::-webkit-input-placeholder {
+  color: #999;
+}
+div.page-body input.form-custom:focus{
+  border-color: #fd7789;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+/*PAGE-BODY END*/
+
+/*BUTTON*/
+.btn-full-width{
+  display: block;
+  background-color: #f9ac28;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+/*  font-weight: bold;*/
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btn-full-width:hover{
+  background-color: #ffc157;
+  color: #fff;
+}
+/*BUTTON END*/
+
+/*PAGINATION*/
+.soal-pagination ul.custom-pagination{
+  margin-top: 40px;
+  text-align: center;
+}
+.soal-pagination ul.custom-pagination li{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.soal-pagination .owl-item a{
+  display: block;
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  /*margin-right: 20px;*/
+  /*margin-bottom: 10px;*/
+  padding: 0;
+  height: 36px;
+  width: 36px;
+  text-align: center;
+  vertical-align: middle; 
+  border:4px solid #929292;
+}
+.soal-pagination .owl-item a .glyphicon-remove { top:4px; color: #df2b38; }
+.soal-pagination .owl-item a .glyphicon-ok { top:4px; color: #00ba11; }
+.soal-pagination .owl-item:hover a,
+.soal-pagination .owl-item.active a{ background-color: #929292; border:4px solid #929292; border-radius: 18px; color:#929292;
+  /*background-color: #0088cc;
+  border: 1px solid #ddd;
+  color: #fff;*/
+}
+.soal-pagination ul.custom-pagination li:last-child a{
+/*  margin-right:0; */
+}
+.soal-pagination .owl-item .benar a{
+  /*background-color: #51a351;*/ background-color: #ffffff; border-color:#00ba11;
+  color: #fff;
+}
+.soal-pagination .owl-item .salah a{
+  /*background-color: #bd362f;*/ background-color: #ffffff; border-color:#df2b38;
+  color: #fff;
+}
+.soal-pagination .owl-item .kosong a{
+  background-color: #0088cc;
+  color: #fff;
+}
+/*PAGINATION END*/
+
+/*LATIHAN SOAL (MULAI)*/
+div.page-body.latihan{
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  background: linear-gradient(to bottom,  rgba(255,255,255,0.44) 10%, rgba(232, 231, 230,0.44) 100%); /* W3C */
+}
+
+div.page-body.latihan .latihan-header h2{ color: #646464; font-size: 2em; text-align: left; font-weight: bold; margin:0 0 20px;
+  /*color: #303030;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 150%;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;*/
+}
+div.page-body.latihan .latihan-header ul.list { padding:0; margin:0 0 35px; list-style: none; position: relative; overflow: hidden; display: inline-block; }
+div.page-body.latihan .latihan-header ul.list .glyphicon-ok-circle { color: #00ba11; }
+div.page-body.latihan .latihan-header ul.list .glyphicon-remove-circle { color: #dc1826; }
+div.page-body.latihan .latihan-header ul.list li { float: left; margin: 0 2px; font-size: 2em; }
+div.page-body.latihan .latihan-header .emp{
+  font-size: 30px;
+  display: block;
+}
+div.page-body.latihan .deskripsi{
+  display: block;
+  margin-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: auto;
+  /*max-width: 530px;*/ padding:0 20%; 
+}
+div.page-body.latihan .deskripsi .selesai-latihan-img { width: 35%; float: left; }
+div.page-body.latihan .deskripsi .wrapper { width: 65%; overflow: hidden; padding: 0 0 0 5%; }
+div.page-body.latihan .deskripsi .wrapper h3 { color: #ffffff; font-size:1.6em; text-align: center; font-weight: bold; margin:0 0 20px; background-color: #00ba11; padding: 13px 0; border-radius: 4px; }
+div.page-body.latihan .deskripsi .wrapper > table { margin: 15px 0 0; font-size: 1.8em; }
+div.page-body.latihan .deskripsi .wrapper > table tr { border:1px solid #e5e5e5; border-width:1px 0 0; }
+div.page-body.latihan .deskripsi .wrapper > table tr:first-child { border-width:0; }
+div.page-body.latihan .deskripsi .wrapper > table tr td { padding:8px 0; }
+div.page-body.latihan .deskripsi .wrapper > table tr td:nth-child(1) { width: 70%; color: #9f9f9f; text-align: left; }
+div.page-body.latihan .deskripsi .wrapper > table tr td:nth-child(2) { width: 5%; }
+div.page-body.latihan .deskripsi .wrapper > table tr td:nth-child(3) { width: 25%; text-align: right; }
+
+div.page-body.latihan .deskripsi p{
+  font-size: 19px;
+  color: #303030;
+}
+div.page-body.latihan p.score{
+  color: #f7304b;
+  display: block;
+  font-size: 154px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+div.page-body.latihan .btn-latihan{
+  background-color: #f9ac28;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin: 25px 0 0;
+  padding: 17px 45px;
+  text-decoration: none;
+  text-transform: uppercase; float: left; 
+}
+div.page-body.latihan .btn-selesai { width: 48%; margin:25px 0 25px 2%; -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; text-align: center; padding: 17px 0; }
+div.page-body.latihan .btn-latihan:hover{
+  background-color: #ffc157;
+}
+div.page-body.latihan .btn-latihan:active{
+  background-image: none;
+}
+.latihan .img-responsive{
+    display: block;
+    margin: 0 auto 40px;
+}
+
+/*tambahan*/
+.logo-latihan { margin:0; }
+.logo-latihan img { width: 85px; }
+div.page-body.latihan .content { width: 100%; padding:0 20%; }
+div.page-body.latihan .content .wrapper { width: 65%; overflow: hidden; padding: 0 0 0 5%; }
+.mulai-latihan-img { width: 35%; float: left; margin:0 !important; }
+div.page-body.latihan .content .wrapper > table { margin: 30px 0 0; font-size: 1.2em; }
+div.page-body.latihan .content .wrapper > table tr { border:1px solid #e5e5e5; border-width:1px 0 0; }
+div.page-body.latihan .content .wrapper > table tr:first-child { border-width:0; }
+div.page-body.latihan .content .wrapper > table tr td { padding:8px 0; text-align: left; }
+div.page-body.latihan .content .wrapper > table tr td:nth-child(1) { font-weight: bold; width: 35%; }
+div.page-body.latihan .content .wrapper > table tr td:nth-child(2) { width: 5%; }
+div.page-body.latihan .content .wrapper > table tr td:nth-child(3) { width: 60%; }
+
+
+
+div.footer.latihan{
+  background-color: transparent;
+  border-color: transparent;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  bottom: auto;
+  color: transparent;
+  width: auto;
+}
+/*LATIHAN SOAL (MULAI) END*/
+
+/*LATIHAN SOAL*/
+div.page-body.latihan-soal{
+    /*padding-top: 0px;
+    padding-bottom: 40px;*/
+    padding: 0 5% 0;
+    position: relative;
+    display: block; background-color: #fbfbfb;
+}
+div.latihan-soal .soal-header{
+  /*background-color: #f7f7f7;*/
+  /*height: 130px;
+  line-height:120px;*/
+  text-align: center;
+}
+div.latihan-soal .soal-header .keterangan-wrapper { background-color: #ffffff; padding: 25px 40px 0; }
+div.latihan-soal .soal-header ul.keterangan { list-style: none; padding:0 0 20px; margin:0; width: 100%; overflow: hidden; border-bottom:1px solid #646464; }
+div.latihan-soal .soal-header ul.keterangan li { float: left; width:33.33%; color: #646464; }
+div.latihan-soal .soal-header ul.keterangan li:nth-child(1) { padding-top: 8px; }
+div.latihan-soal .soal-header ul.keterangan li:nth-child(2) { text-align: center; font-size: 1.8em; font-weight: bold; font-family: arial; color: #acacac; }
+div.latihan-soal .soal-header ul.keterangan li:nth-child(3) { text-align: right;}
+div.latihan-soal .soal-header ul.keterangan .circle-icon { background-color: #acacac; height: 8px; width: 8px; border-radius: 4px; float: left; margin: 6px 6px 0 0; display: block; }
+div.latihan-soal .soal-header ul.keterangan .btn { color: #ffffff; }
+div.latihan-soal .soal-header ul.keterangan .btn span { padding-right:4px; }
+div.latihan-soal .soal-header ul.keterangan .btn-text { background-color: #f8ac28; }
+div.latihan-soal .soal-header ul.keterangan .btn-video { background-color: #f4930a; margin:0 0 0 2px; }
+
+div.latihan-soal .header-wrapper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+div.latihan-soal .wrapper-soal{
+  border-bottom: 2px solid #f2f2f2; background-color: #ffffff; padding: 0 25px; /*overflow: hidden;*/ width: 100%; position: relative;
+}
+.soal-container { width: 100%; }
+
+div.latihan-soal h2{
+  /*color: #303030;*/
+  color: #646464;
+  /*display: inline-block;*/
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:35px 0 25px;
+  text-transform: uppercase;
+  /*vertical-align:middle;*/
+}
+div.latihan-soal .item-soal .jawaban{
+/*  position: inherit;*/
+}
+div.latihan-soal .item-soal .soal,
+div.latihan-soal .item-soal .jawaban{
+  padding-top: 45px;
+  height: 500px;
+  padding-bottom: 45px;
+}
+div.latihan-soal .item-soal .soal p{
+  line-height: 26px;
+  font-size: 16px;
+}
+div.latihan-soal .item-soal .jawaban input[type=radio] {
+  display: none;
+}
+div.latihan-soal .item-soal .jawaban{
+  /*border-left: 2px solid #f2f2f2;*/
+  padding-left: 30px;
+}
+div.latihan-soal .item-soal .jawaban > h5 { color: #646464; margin: 0 0 15px; font-size: 1.1em; }
+div.latihan-soal .item-soal .jawaban > h5 span { padding-right: 8px; }
+
+.soalnav{
+  background: #fbfbfb;
+  width: 100%;
+  overflow:hidden;
+}
+.btn-info.next_soal{
+/*
+  position: absolute;
+  top: 540px;
+  right: 635px;
+  z-index: 5;
+*/
+}
+.btn-info.next_soal, .btn-info.next_soal:active, .btn-info.next_soal:focus { background-color: #f8ac28; border-color: #f8ac28; }
+.soal-pagination{
+    overflow: hidden;
+}
+.soal-pagination nav.pagination-wrapper{
+    width: 100%;
+    overflow: hidden;
+    width:50%; margin:0 auto;
+}
+
+@media (max-width: 768px){
+  .soal-pagination nav.pagination-wrapper{
+      width: 100%;
+      overflow: hidden;
+      width:70%; margin:0 auto;
+  }
+}
+
+.soal-pagination ul.custom-pagination{
+    width: 50%;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+
+@media (max-width: 1199px) and (min-width: 980px){
+    .btn-bahas{
+        margin-bottom: 15px;
+    }
+    div.page-body.latihan .content { padding: 0 15%; }
+    .mulai-latihan-img { width: 40%; }
+    div.page-body.latihan .content .wrapper { width: 60%; }
+    div.page-body.latihan .deskripsi { padding: 0 10%; }
+    div.page-body.latihan .deskripsi .selesai-latihan-img { width: 43%; }
+    div.page-body.latihan .deskripsi .wrapper { width: 57%; }
+    div.page-body.latihan .deskripsi .wrapper > table { font-size: 1.5em; }
+}
+
+@media (max-width: 979px) and (min-width: 768px){
+    .btn-bahas{
+        margin-bottom: 15px;
+    }
+    div.page-body.latihan .content { padding: 0 10%; }
+    .mulai-latihan-img { width: 40%; }
+    div.page-body.latihan .content .wrapper { width: 60%; }
+    div.page-body.latihan .latihan-header h2 { font-size: 1.6em; }
+    div.page-body.latihan .content .wrapper > table { font-size: 1.1em; }
+    div.latihan-soal .soal-header ul.keterangan .btn-text { margin-bottom: 2px; }
+    div.page-body.latihan .deskripsi { padding: 0 10%; }
+    div.page-body.latihan .deskripsi .selesai-latihan-img { width: 43%; }
+    div.page-body.latihan .deskripsi .wrapper { width: 57%; }
+    div.page-body.latihan .deskripsi .wrapper > table { font-size: 1.5em; }
+    div.page-body.latihan .btn-selesai { font-size: 0.9em; }
+    div.latihan-soal .soal-header ul.keterangan li:nth-child(1) { width: 33%; }
+    div.latihan-soal .soal-header ul.keterangan li:nth-child(2) { font-size: 1.6em; width: 33%; text-align: center; }
+    div.latihan-soal .soal-header ul.keterangan li:nth-child(3) { color: #ffffff; height: 1px; }
+    div.latihan-soal .soal-header ul.keterangan .btn { font-size: 1.3em; padding:7px 10px; border-radius: 20px; color: transparent; height: 40px; width: 40px; }
+    div.latihan-soal .soal-header ul.keterangan .btn .glyphicon { color: #ffffff !important; }
+    div.latihan-soal .soal-header ul.keterangan .btn-text { position: fixed; right: 0; bottom: 114px; z-index: 2000; }
+    div.latihan-soal .soal-header ul.keterangan .btn-video { position: fixed; right: 0; bottom: 160px; z-index: 2000; }
+}
+@media(max-width: 767px){
+  div.page-body.latihan { padding-top: 60px; padding-bottom: 60px; }
+  div.page-body.latihan .deskripsi { padding: 0 8%; }
+  div.page-body.latihan .deskripsi .selesai-latihan-img { width: 100%; padding: 0 15%; }
+  div.page-body.latihan .deskripsi .wrapper { width: 100%; }
+  div.page-body.latihan .deskripsi .wrapper h3 { font-size: 1.3em; }
+  div.page-body.latihan .deskripsi .wrapper > table { font-size: 1.2em; }
+  div.page-body.latihan .btn-selesai { font-size: 11px; }
+
+  .mulai-latihan-img { width: 100%; padding: 0 15%; }
+  div.page-body.latihan .content { padding: 0 10%; }
+  div.page-body.latihan .content .wrapper { width: 100%; padding:35px 0 0; }
+  div.page-body.latihan .latihan-header h2 { font-size: 1em; }
+  div.page-body.latihan .latihan-header .emp { font-size: 20px; }
+  div.page-body.latihan .content .wrapper > table { margin:25px 0 0; font-size: 1em; }
+  div.page-body.latihan .btn-latihan { font-size: 0.9em; padding: 15px 30px; float: none;}
+
+  div.latihan-soal .soal-header .keterangan-wrapper { padding: 25px 20px 0; }
+  div.latihan-soal .soal-header ul.keterangan li { font-size: 0.9em; }
+  div.latihan-soal .soal-header ul.keterangan li:nth-child(1) { width: 45%; }
+  div.latihan-soal .soal-header ul.keterangan li:nth-child(2) { font-size: 1.6em; width: 51%; text-align: left; }
+  div.latihan-soal .soal-header ul.keterangan li:nth-child(3) { color: #ffffff; height: 1px; }
+  div.latihan-soal .soal-header ul.keterangan .btn { font-size: 1.1em; padding: 6px 8px; border-radius: 16px; color: transparent; height: 32px; width: 32px; }
+  div.latihan-soal .soal-header ul.keterangan .btn .glyphicon { color: #ffffff !important; }
+  div.latihan-soal .soal-header ul.keterangan .btn-text { position: fixed; right: 0; bottom: 100px; z-index: 2000; }
+  div.latihan-soal .soal-header ul.keterangan .btn-video { position: fixed; right: 0; bottom: 135px; z-index: 2000; }
+  div.latihan-soal .wrapper-soal { padding:0 5px; }
+
+  div.latihan-soal .item-soal .soal p { font-size: 14px; }
+  div.latihan-soal .item-soal .jawaban p { font-size: 0.9em; }
+  div.latihan-soal .item-soal .soal{
+    border: transparent;
+    padding-bottom: 35px;
+    height: auto;
+  }
+  div.latihan-soal .item-soal .jawaban{
+    border-left: transparent;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    height: auto;
+  }
+
+  div.latihan-soal .item-soal .jawaban .opt-id {
+    font-size: 25px;
+    width: 30px;
+  }
+  div.header .navbar-default .navbar-brand > img{
+    margin-left: 0;      
+  }
+  .login .col-centered{
+      max-width: 313px;
+  }
+  .log-separator .left,
+  .log-separator .right{
+      width: 42%;
+  }
+  .log-separator .middle{
+      width: 13%;
+  }
+  .soal-pagination ul.custom-pagination > li > a {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    font-size: 1px;
+  }
+
+}
+
+div.latihan-soal .item-soal .jawaban .opt-id{
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+div.latihan-soal .item-soal .jawaban .opt{
+  margin-left: 40px;
+  font-size: 16px; 
+  vertical-align: 4px;
+  display: inline-block;
+  width: 85%;
+}
+div.latihan-soal .item-soal .jawaban .label-opt{
+  position: inherit;
+  min-height: 55px;
+  background-color: #ffffff;
+  color: #9f9f9f;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 20px;
+  padding: 10px 15px 5px 5px;
+  width: 100%;
+}
+div.latihan-soal .item-soal .jawaban .label-opt:hover { background-color: #b3b3b3; }
+div.latihan-soal .item-soal .jawaban input[type="radio"]:checked+.label-opt {
+  background-color: #f8ac28; 
+}
+div.latihan-soal .item-soal .jawaban input[type="radio"]:checked+.label-opt .opt-id { border-color: #ffffff; }
+div.latihan-soal .item-soal .jawaban input[type="radio"]:checked+.label-opt p { color: #ffffff; }
+div.latihan-soal .item-soal .jawaban .label-opt:hover .opt-id { border-color: #ffffff; }
+div.latihan-soal .item-soal .jawaban .label-opt:hover p { color: #ffffff; }
+div.latihan-soal .item-soal .jawaban p{
+  color: #646464;
+}
+div.latihan-soal .item-soal .jawaban .opt-id { border:1px solid #646464; text-align: center; border-radius: 4px; }
+div.latihan-soal .item-soal .jawaban .opt-id p { margin:0; }
+div.latihan-soal .item-soal .jawaban .opt { margin-left: 55px; }
+
+div.latihan-soal .item-soal .soal p{
+  color: #000;
+  font-size: 16px;
+  font-weight: 550;
+}
+div.latihan-soal .item-soal .jawaban input[type="radio"]:disabled+.label-opt{
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+/*LATIHAN SOAL END*/
+
+/*PEMBAHASAN*/
+div.latihan-soal .jawaban .status{
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+div.latihan-soal .jawaban .status p{
+  color: #51a351;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 12px;
+  text-transform: uppercase;
+} 
+div.latihan-soal .jawaban .pembahasan p{
+  line-height: 26px;
+}
+/*PEMBAHASAN END*/

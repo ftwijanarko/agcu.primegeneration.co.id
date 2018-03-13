@@ -1,0 +1,42 @@
+/* -- PLUGIN: TinyMCE Toolbar CSS -- */
+.mce-btn-group:last-child {
+    float:right;
+    border-left: none;
+}
+
+/* -- PLUGIN: Datatable Select Box -- */
+div.dataTables_wrapper div.dataTables_length select {
+    height: 40px;
+}
+
+.sidebar-header {
+    text-transform: uppercase;
+    font-weight: bolder;
+    opacity: .7;
+    margin: 10px 15px 0 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* -- Dashboard -- */
+@media screen and (max-width:640px){
+    .tab-dashboard > li{
+        float: none;
+    }
+    .tab-dashboard > li.pull-right{
+        float: none!important;
+        margin-top: 10px;
+    }
+    .tab-dashboard > li > a {
+        padding-left: 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0;
+    }
+    .tab-dashboard .open > a,
+    .tab-dashboard .open > a:focus,
+    .tab-dashboard .open > a:hover {
+        background-color: #fff;
+    }
+}
+

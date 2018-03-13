@@ -1,0 +1,22 @@
+@media (min-width: 992px) and (max-width: 1199px){
+
+.navbar { padding:10px 8% 5px; }
+.navbar-header { padding:5px 0 0; }
+
+/*HOME*/
+.home-slider .caption { left:10%; top:145px; width:37%; 
+	h1 { font-size:2.8em; }
+	.h2 { font-size:3rem; }}
+.materi-wrapper { padding:50px 10% 65px; }
+.materi-content .caption { margin:20px 0 0; }
+.home-video .content, .home-video2 .content { padding-right:10%; }
+
+
+/*DASHBOARD*/
+.akun-header { padding:15px 8%; }
+.akun-edit .score { right:8%; }
+.akun-container { padding:60px 8%; }
+.profile-option { width:67%; }
+.akun-slider .content { top:35px; padding:75px 0 0; }
+
+}

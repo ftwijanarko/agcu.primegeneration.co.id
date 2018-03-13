@@ -1,0 +1,32 @@
+.container-fluid .card h4 {
+    border: solid 1px transparent;
+    background: #dc1826;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600 !important;
+}
+
+.container-fluid .card .title h4 {
+		color: #fff;
+		text-transform: uppercase;
+}
+
+.container-fluid .card .category {
+		display:none;
+}
+
+.diagnistic-title th{
+		text-align: center;
+		border:solid 1px #ddd;
+		background: #821592;
+		color:#fff;
+		text-transform: uppercase;
+		font-size: 16px;
+}
+
+table th{
+		background: #821592;
+		color:#fff !important;
+		text-transform: uppercase;
+		font-size: 16px !important;
+}

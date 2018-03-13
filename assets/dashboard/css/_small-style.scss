@@ -1,0 +1,44 @@
+@media (min-width:768px) and (max-width:991px) {
+
+.navbar-header { padding:5px 0 0; width:11.7%; }
+.navstyle { width:88.3%; }
+
+/*HOME*/
+.home-slider {
+	.caption { top:125px; left:10%; width:37%; 
+		h1 { font-size:2em; }
+		.h2 { font-size:2rem; }
+		p { font-size:1em; }}
+	.btn-mulai { font-size:1em; }}
+.materi-wrapper { padding:50px 10% 65px; }
+.materi-content .caption { margin:20px 0 0;
+	h6 { font-size:1em; }
+	p { font-size:0.8em; }
+	a { font-size:1em; }}
+.home-video-wrapper { padding:40px 10%; }
+.home-video, .home-video2 {
+	.content { padding-right:8%; 
+		h2 { font-size:1.4em; }}}
+.home-video2 .content { padding:0 0 0 8%; }
+
+/*DASHBOARD*/
+.akun-container { padding:60px 6%; }
+.akun-edit { width:95px;
+	.btn-edit { font-size:0.9em; padding:5px 10px; border-width:1px; }
+	.number { font-size:1em; margin-left:5px; padding:3px 15px; }}
+.profile-option { width:80%; }
+.mapel-wrapper { margin:60px 0; }
+.mapel-container {
+	.header { background-size:27px auto; font-size:0.85em; }
+	.content {
+		.title {
+			h5, h4 { font-size:0.9em; }
+			h3 { font-size:1.2em; }
+			h6 { font-size:0.85em; }}}
+		.btn-mapel { padding:4px 10px; font-size:0.9em; }}
+.akun-slider .content { top:25px; padding:55px 0 0; background-size:80px auto; width:32%; 
+	h5 { font-size:1.1em; }
+	p { font-size:0.8em; }
+	a { font-size:0.8em; }}
+
+}

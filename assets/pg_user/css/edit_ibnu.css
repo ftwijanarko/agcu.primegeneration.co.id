@@ -1,0 +1,677 @@
+/* Navigation Bar */
+.navbar-page{
+    background-color: #f7304b;
+    border-color: #ff5878;
+}
+.navbar-page .container-fluid{
+    position: relative;
+}
+
+/* Materi Teks */
+.mapel-header{
+    height: 270px;
+    position: relative;
+    background-color: #f7304b;
+}
+.mapel-header .mapel-title{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    width: auto;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.035em;
+}
+.mapel-subs{
+    display: table;
+}
+.mapel-subs img{
+    margin-bottom: 40px;
+}
+.subs-left{
+    display: table-cell;
+    width: 70%;
+    padding-left: 65px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.subs-left h3{
+    margin-top: 65px;
+    margin-bottom: 55px;
+    font-weight: 600px;
+    letter-spacing: 0.035em;
+}
+.subs-left p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    color: #767676;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.subs-left ol{
+    margin-left: 15px;
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    color: #767676;
+}
+.subs-right{
+    display: table-cell;
+    width: 30%;
+    padding-left: 50px;
+    background-color: #e7e7e7;
+    position: relative;
+}
+.subs-right h4{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+}
+.subs-right ul{
+    margin-bottom: 50px;
+}
+.subs-right ul li{
+    display: inline-block;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+}
+.subs-right .btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: 0.075em;
+    border-radius: 0;
+    color: #ff3752;
+    font-weight: 600;
+}
+.subs-right #sidebar.affix,
+.subs-right #sidebar.affix-top{
+    width: 300px;
+}
+.subs-right .subs-video{
+    padding-right: 50px;
+}
+
+/* Search */
+.search-wrap .form-group{
+    width: 85%;
+}
+.search-wrap .form-control{
+    height: 58px;
+    border-radius: 25px;
+    margin-right: 50px;
+    padding: 20px;
+    width: 100%;
+}
+.search-wrap .btn{
+    height: 58px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.075em;
+    color: #ff3752;
+    font-weight: 800;
+    padding: 15px 20px;
+    border-radius: 0;
+    float: right;
+}
+.search-wrap .btn-default{
+    border-color: transparent;
+}
+.page-result{
+    margin-bottom: 30px;
+}
+.page-result .img-result{
+    margin-bottom: 0;
+}
+.page-result h4{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.015em;
+    margin-top: 0;
+}
+.page-result h4 a{
+    color: #000;
+}
+.page-result p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #767676;
+}
+
+/* Table of Content */
+.topic{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.topic-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #303030;
+    letter-spacing: 0.035em;
+}
+.topic .topic-item{
+    font-size: 14px;
+    letter-spacing: 0.035em;
+}
+.topic .topic-title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.topic ul.topic-item{
+    display: block;
+}
+.topic ul.topic-item li{
+    margin-bottom: 15px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.materi-detail{
+    background-color: #f7f7f7;
+}
+.materi-detail .container{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.materi-detail .topic-title{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.materi-detail .right-materi{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    color: #767676;
+}
+.daftar-isi{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.daftar-isi .topic-title{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.daftar-isi .daftar-item{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.daftar-isi .daftar-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    margin-top: 0;
+}
+.daftar-isi .daftar-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    color: #767676;
+}
+.daftar-isi .daftar-list li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #303030;
+    margin-bottom: 13px;
+}
+.video-materi h2.section-title{
+    margin-bottom: 40px;
+}
+.video-materi .video-container{
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+.daftar-item .materi-thumb{
+    width: 11%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+.daftar-item .materi-daftar{
+    display: inline-block;
+    width: 85%;
+}
+.daftar-item .materi-thumb .thumb-container{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #cc335b;
+    padding-top: 3px;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+}
+.daftar-item .materi-thumb .thumb-container img{
+    width: auto;
+    height: 20px;
+    display: inline;
+}
+
+/* Table of Content Detail */
+.tableofcontent{
+    display: table;
+}
+.tableofcontent .table-sidebar{
+    display: table-cell;
+    width: 30.41%;
+    padding: 0 45px 0 45px;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.tableofcontent .table-sidebar .left-side{
+    bottom: 400px;
+}
+.tableofcontent .table-sidebar h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.015em;
+    color: #000;
+}
+.tableofcontent .table-sidebar .nav-pills > li > a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #303030;
+    border-radius: 0;
+}
+.tableofcontent .table-sidebar .nav-pills > li.active > a,
+.tableofcontent .table-sidebar .nav-pills > li.active > a:hover,
+.tableofcontent .table-sidebar .nav-pills > li.active > a:focus{
+    color: #303030;
+    background-color: transparent;
+    border-left: 2px solid #ff5878;
+}
+.tableofcontent .table-sidebar .nav > li{
+}
+.tableofcontent .table-sidebar .nav > li > a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.tableofcontent .table-sidebar .nav > li > a:hover,
+.tableofcontent .table-sidebar .nav > li > a:focus{
+    color: #303030;
+    background-color: transparent;
+    outline: none;
+}
+#sidebar.affix-top {
+    position: static;
+    margin-top: 30px;
+    width: 100%;
+}
+#sidebar.affix {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+}
+.tableofcontent .table-desc{
+    display: table-cell;
+    width: 69.58%;
+    padding: 0 50px 200px;
+}
+.tableofcontent .table-desc .desc-content{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border-bottom: 3px solid #e7e7e7;
+}
+.tableofcontent .table-desc .desc-content:nth-child(1){
+    padding-top: 0;
+}
+.tableofcontent .table-desc .desc-content:last-child{
+    border-bottom: none;
+}
+.tableofcontent .table-desc .desc-content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.015em;
+    color: #000;
+    margin-bottom: 35px;
+}
+.tableofcontent .table-desc .desc-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    color: #767676;
+    margin-bottom: 35px;
+}
+.tableofcontent .table-desc .desc-content .separator{
+    border-bottom-color: #e7e7e7;
+}
+.desc-content ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #000;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.desc-content ul li:last-child{
+    border-bottom: none;
+}
+.desc-content ul li a{
+    position: relative;
+    padding-left: 40px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+.desc-content ul li a span{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+.desc-content ul li span.materi-sep{
+    height: 51px;
+    width: 4px;
+    background: #cc335b;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 0;
+}
+.desc-content ul li:hover span.materi-sep{
+    background: #ec5f74;
+}
+.desc-content ul li:first-child span.materi-sep{
+    height: 20px;
+    top: auto;
+    bottom: -1px;
+}
+.desc-content ul li:last-child span.materi-sep{
+    height: 20px;
+}
+.desc-content ul li span.icon-video{
+    background: url(../images/content-thumbs/play.png) no-repeat;
+    background-size: contain;
+}
+.desc-content ul li:hover span.icon-video{
+    background: url(../images/content-thumbs/play-hover.png) no-repeat;
+    background-size: contain;
+}
+.desc-content ul li span.icon-teks{
+    background: url(../images/content-thumbs/text.png) no-repeat;
+    background-size: contain;
+}
+.desc-content ul li:hover span.icon-teks{
+    background: url(../images/content-thumbs/text-hover.png) no-repeat;
+    background-size: contain;
+}
+.desc-content ul li span.icon-tugas{
+    background: url(../images/content-thumbs/test.png) no-repeat;
+    background-size: contain;
+}
+.desc-content ul li:hover span.icon-tugas{
+    background: url(../images/content-thumbs/test-hover.png) no-repeat;
+    background-size: contain;
+}
+
+
+/* --- User Dashboard --- */
+.user-profile a.img-user{
+    position: relative;
+    top: -5px;
+    width: 100px;
+}
+.user-profile a .img-circle{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    overflow: hidden;
+}
+.user-profile a span{
+    padding-top: 15px;
+}
+
+/* --- user Payment --- */
+.pay-bank{
+    text-align: center;
+}
+.pay-bank img{
+    display: inline;
+}
+.pay-bank p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.failed-pay .alert p{
+    color: #a94442;
+}
+.buy-time{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background-color: #ec971f;
+    color: #fff;
+    border-radius: 10px;
+}
+.buy-item{
+    width: 20%;
+}
+.buy-deadline{
+    color: #a94442;
+}
+
+@media screen and (max-width: 1299px){
+    #sidebar.affix{
+        top: 30px;
+    }
+}
+@media screen and (max-width: 1199px){
+    #sidebar.affix{
+        top: -30px;
+    }
+    .daftar-item .materi-thumb{
+        width: 50px;
+    }
+    .daftar-item .materi-daftar{
+        padding-left: 15px;
+        width: 80%;
+    }
+    .topic .row{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .subs-left{
+        width: 60%;
+        padding-left: 30px;
+    }
+    .subs-right{
+        width: 40%;
+    }
+    #sidebar.affix{
+        top: 0;
+    }
+    .subs-right ul li{
+        display: block;
+    }
+}
+@media screen and (max-width: 991px){
+    .subs-left{
+        width: 55%;
+    }
+    .subs-right{
+        width: 45%;
+        padding-left: 30px;
+    }
+    .subs-right #sidebar.affix, .subs-right #sidebar.affix-top{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 850px){
+    .mapel-subs{
+        display: block;
+    }
+    .subs-left,
+    .subs-right{
+        display: block;
+        width: 100%;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .subs-right{
+        text-align: center;
+    }
+    .subs-right ul{
+        display: block;
+    }
+    .subs-right ul li{
+        padding-left: 0;
+    }
+    #sidebar.affix{
+        position: relative;
+    }
+    .subs-right #sidebar.affix, .subs-right #sidebar.affix-top{
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .subs-left{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .subs-right{
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .subs-right ul{
+        text-align: left;
+    }
+    .subs-right .btn{
+        margin-left: 0;
+    }
+    .list-inline > li{
+        display: block;
+    }
+    .nav-searching li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ededed;
+    }
+    .search-wrap .form-inline .form-group{
+        display: block;
+    }
+    .search-wrap .form-group{
+        width: 100%;
+    }
+    .search-wrap .btn{
+        float: none;
+    }
+    .page-result h4{
+        margin-top: 15px;
+    }
+    .topic{
+        padding-bottom: 50px;
+    }
+    .topic ul.topic-item{
+        list-style: disc;
+    }
+    .video-container img{
+        width: 100%;
+        height: auto;
+    }
+    .topic ul.topic-item li{
+        margin-bottom: 15px;
+    }
+    .materi-detail img{
+        margin-bottom: 30px;
+    }
+    .daftar-isi .daftar-list{
+        list-style: circle;
+        -webkit-padding-start: 20px;
+        -moz-padding-start: 20px;
+    }
+    .tableofcontent{
+        display: block;
+    }
+    .tableofcontent .table-sidebar{
+        display: block;
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .tableofcontent .table-desc{
+        display: block;
+        width: 100%;
+        padding: 30px 15px 50px;
+    }
+    .tableofcontent .table-desc .desc-content ul li a{
+        display: block;
+    }
+    .tableofcontent .table-desc .desc-content ul li:first-child span{
+        bottom: 0;
+    }
+    .tableofcontent .table-desc .desc-content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tableofcontent .table-desc .desc-content h3,
+    .tableofcontent .table-desc .desc-content p{
+        margin-bottom: 15px;
+    }
+    #sidebar.affix{
+        position: static;
+    }
+    #sidebar.affix-top{
+        margin-top: 0;
+    }
+    .subs-right #sidebar.affix, .subs-right #sidebar.affix-top{
+        width: 100%;
+        padding-right: 15px;
+    }
+    .daftar-item .materi-thumb{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .daftar-item .materi-thumb .thumb-container{
+        display: inline-block;
+    }
+    footer img{
+        margin-bottom: 15px;
+    }
+    .navbar-default .navbar-nav .user-profile.open .dropdown-menu > li > a{
+        color: #ffebee;
+    }
+    .navbar-default .navbar-nav .user-profile.open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .user-profile.open .dropdown-menu > li > a:focus{
+        color: #fff;
+    }
+}

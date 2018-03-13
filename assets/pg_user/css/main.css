@@ -1,0 +1,41 @@
+/* --- General Styles --- */
+
+/* Font Smoothing */
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
+
+/* List */
+ul{
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0px;
+    -ms-padding-start: 0px;
+    -o-padding-start: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+/* --- Media Queries --- */
+@-ms-viewport{
+    width: device-width;
+}
+
+/* --- Retina Settings --- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    
+    /* Header Background */
+    header{
+        background: url(../images/header-bg@2x.jpg) no-repeat;
+    }
+    
+    /* Services */
+}
